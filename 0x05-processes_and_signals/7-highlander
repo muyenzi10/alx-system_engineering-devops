@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
-# This script kills a process using command kill
-kill "$(ps -x | pgrep -f beyond)"
-
+# This script display
+trap 'echo "I am invincible!!!"' 15
+while true; do
+    echo "to infinity and beyond"
+    sleep 2
+done
