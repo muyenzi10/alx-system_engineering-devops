@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# this my ssh
+ssh ubuntu -i ~/.ssh/school 
